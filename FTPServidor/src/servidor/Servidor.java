@@ -38,7 +38,7 @@ public class Servidor
 		System.out.println("El servidor FTP ha sido inicializado en el puerto 9000");
 		while(clientesConectados < clientesPermitidos)
 		{
-			System.out.println("Esperando a" + (clientesPermitidos - clientesConectados) + "clientes por conectarse");
+			System.out.println("Esperando a " + (clientesPermitidos - clientesConectados) + " clientes por conectarse");
 			Transferencia transferencia = new Transferencia(socket.accept());
 			clientes.add(transferencia);
 		}
