@@ -9,7 +9,7 @@ import java.io.InputStreamReader;
 import java.net.Socket;
 
 public class TransferenciaCliente {
-	public final static String PATH = "./files/";
+	public final static String PATH = "./files/client/";
 	private String archivoSeleccionado;
 	private int tamano;
 	
