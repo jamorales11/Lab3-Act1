@@ -27,11 +27,11 @@ public class Servidor
 		int opcionElegida = Integer.parseInt(br.readLine());
 		if(opcionElegida == 1)
 		{
-			pathArchivo = "";
+			pathArchivo = "./files/server/100MB.zip";
 		}
 		else
 		{
-			pathArchivo = "";
+			pathArchivo = "./files/server/250MB.zip";
 		}
 		
 		ServerSocket socket = new ServerSocket(9000);
